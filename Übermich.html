@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<title>Übermich</title>
+<meta charset="utf-8" />
+<meta name="description" content="Übermich von der Projektarbeit" />
+<meta name="keywords" content="Projektarbeit, HTML5, Videospiel, Spiele" />
+<meta name="author" content="Flavio Fiechter" />
+<link rel="stylesheet" href="Projekt.css">
+</head>
+
+<body>
+    <header>
+        <a href="Hauptseite.html"><h1>Videospiele</h1></a>
+    </header>
+    <nav id="navigation">
+        <h2>Lieblingsvideospiele</h2>
+        <ul>
+            <li><a href="Unterseiten/DeadByDaylight.html">Dead By Daylight</a></li>
+            <li><a href="Unterseiten/ForzaHorizon5.html">Forza Horizon 5</a></li>
+            <li><a href="Unterseiten/Minecraft.html">Minecraft</a></li>
+            <li><a href="Unterseiten/Valorant.html">Valorant</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>Mein Name ist Flavio Fiechter und ich habe diese Webseite erstellt im Modul 293 in der Informatik Berufsschule BBZBL</div>
+        <br>
+        <div>Dieses Projekt ist die Abschlussarbeit dieses Moduls</div>
+        <br>
+        <form action="https://gibm.becknet.ch/formular/formular.php" method="post">
+
+            <div>
+        
+                <label>Eine Email an mich schreiben:</label><br>
+                <br>
+        
+                <input type="radio" name="anrede" id="frau" value="Frau" required>
+                <label for="frau">Frau</label>
+        
+                <input type="radio" name="anrede" id="herr" value="Herr">
+                <label for="herr">Herr</label>
+        
+                <input type="radio" name="anrede" id="anderes" value="Anderes">
+                <label for="anderes">Anderes</label>
+        
+            </div>
+        
+            <div>
+        
+                <label for="vorname">Vorname *</label><br>
+        
+                <input type="text" id="vorname" name="vorname" minlength="1" maxlength="30" required />
+        
+            </div>
+        
+            <div>
+        
+                <label for="nachname">Nachname *</label><br>
+        
+                <input type="text" id="nachname" name="nachname" minlength="1" maxlength="30" required />
+        
+            </div>
+        
+            <div>
+        
+                <label for="strasse">Strasse *</label><br>
+        
+                <input type="text" id="strasse" name="strasse" required />
+        
+            </div>
+        
+            <div>
+        
+                <label for="plz">PLZ / Ort</label><br>
+        
+                <input type="number" name="plz" id="plz" min="1000" max="9999">
+                <input type="text" name="ort" id="ort">
+        
+            </div>
+        
+            <div>
+        
+                <label for="email">Email *</label><br>
+        
+                <input type="email" id="email" name="email" required />
+        
+            </div>
+        
+            <div>
+        
+                <label for="nachricht">Nachricht</label><br>
+        
+                <textarea name="nachricht" id="nachricht" cols="30" rows="10">
+                </textarea>
+        
+            </div>
+        
+            <div>
+        
+                <input type="submit" value="Senden">
+        
+                <input type="reset" value="Löschen">
+        
+            </div>
+        
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="Übermich.html">Über mich</a></li>
+            <li>Projektarbeit Flavio Fiechter</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
