@@ -91,16 +91,56 @@ footer {
     color: white;
 }
 
-#Generator {
+#Bild {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#Opfergabe {
+#Video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+}
+
+@media screen and (max-width:600px){
+
+    body {
+       grid-template-columns: 100%;
+ 
+       grid-template-rows: 70px auto 1fr 70px;
+ 
+       grid-template-areas:
+ 
+            "header"
+ 
+            "navigation"
+ 
+            "content"
+ 
+            "footer"
+        ;
+    }
+
+    nav ul * {
+        border: solid black;
+        padding: 10px;
+        margin: 10px;
+        list-style-type: none;
+        background-color: black;
+    }
+
+    nav ul {
+        padding-left: 0px;
+    }
+
+    #Bild {
+        width: 100%;
+    }
+
+    #Video {
+        width: 100%;
+    }
 }
