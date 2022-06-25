@@ -91,14 +91,14 @@ footer {
     color: white;
 }
 
-#Bild {
+.Bild {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#Video {
+.Video {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -136,11 +136,11 @@ footer {
         padding-left: 0px;
     }
 
-    #Bild {
+    .Bild {
         width: 100%;
     }
 
-    #Video {
+    .Video {
         width: 100%;
     }
 }
